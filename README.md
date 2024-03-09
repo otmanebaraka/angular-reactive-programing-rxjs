@@ -10,3 +10,7 @@ This project explores and demonstrates powerful reactive programming techniques 
 * **Stream Caching:** Optimizations using caching techniques to store RxJS streams, thereby avoiding redundant calculations or network requests.
 * **Infinite Scroll & Lazy Loading:** Implementation of infinite scroll functionality with lazy loading to improve the loading performance of large datasets.
 * **Autocomplete with Search & Lazy Loading:**  Development of an autocomplete component that seamlessly handles search queries and lazy-loads results for an enhanced user experience.
+
+## Live Demo
+
+Try out a live demo of this project on StackBlitz: https://stackblitz.com/~/github.com/otmanebaraka/angular-reactive-programming-rxjs 
