@@ -1,0 +1,20 @@
+<h2>Product List</h2>
+@if (products$ | async; as products ) {
+  @if(products.length > 0){
+    <ul>
+      @for (product of products; track product.id) {
+        <li>
+          <a [routerLink]="['/product-details', product.id]">
+            {{product.title}}
+          </a>
+        </li>
+      }
+    </ul>
+  }
+  @else{
+    No products found.
+  }
+}
+@else {
+  Loading...
+}
