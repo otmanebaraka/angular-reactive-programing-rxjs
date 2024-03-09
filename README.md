@@ -1,27 +1,12 @@
-# AngularReactiveProgramingRxjs
+# AngularReactiveProgrammingRxjs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+This project explores and demonstrates powerful reactive programming techniques within Angular using the RxJS library.  The objective is to build efficient, user-friendly, and well-structured Angular components leveraging RxJS concepts.
 
-## Development server
+## Key Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* **Standalone Components:** Implementation of standalone components to promote better modularity and reusability.
+* **CRUD Best Practices:**  Exemplary CRUD (Create, Read, Update, Delete) implementation showcasing optimal ways to send HTTP requests, manage potential errors, and display loading indicators.
+* **Resolvers, Guards, and Interceptors:**  Integration of Angular resolvers, route guards, and interceptors for data pre-fetching, route protection, and request/response modification.
+* **Stream Caching:** Optimizations using caching techniques to store RxJS streams, thereby avoiding redundant calculations or network requests.
+* **Infinite Scroll & Lazy Loading:** Implementation of infinite scroll functionality with lazy loading to improve the loading performance of large datasets.
+* **Autocomplete with Search & Lazy Loading:**  Development of an autocomplete component that seamlessly handles search queries and lazy-loads results for an enhanced user experience.
