@@ -1,4 +1,4 @@
-# AngularReactiveProgrammingRxjs
+# Angular Reactive Programming with Rxjs
 
 This project explores and demonstrates powerful reactive programming techniques within Angular using the RxJS library.  The objective is to build efficient, user-friendly, and well-structured Angular components leveraging RxJS concepts.
 
